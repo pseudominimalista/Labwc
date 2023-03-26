@@ -1,5 +1,5 @@
 #!/bin/sh
-.local/bin/yay -Syu git vim vim-plug nxengine nordic-darker-theme nordic-wallpapers-git wbg labwc foot librewolf-bin wf-recorder wl-clipboard wdisplays brightnessctl pavucontrol thunar grim imv mako mpv xdg-user-dirs xdg-utils nordzy-cursors ttf-jetbrains-mono acpi xdg-desktop-portal-wlr rofi xorg-xwayland yt-dlp
+.local/bin/yay -Syu git vim vim-plug nxengine nordic-darker-theme nordic-wallpapers-git wbg labwc foot librewolf-bin wf-recorder wl-clipboard wdisplays brightnessctl pavucontrol thunar tumbler grim imv mako mpv xdg-user-dirs xdg-utils nordzy-cursors ttf-jetbrains-mono acpi xdg-desktop-portal-wlr rofi xorg-xwayland yt-dlp
 Nordzy-icon/install.sh
 
 xdg-user-dirs-update --force
