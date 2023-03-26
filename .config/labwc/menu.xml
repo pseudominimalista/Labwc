@@ -3,7 +3,7 @@
 <menu id="root-menu" label="root-menu">
 	<menu id="Accessories" label="Acessórios">
 		<item label="Vim" icon="gvim">
-			<action name="Execute"><command>vim</command></action>
+			<action name="Execute"><command>foot vim</command></action>
 		</item>
 	</menu> <!-- Accessories -->
 	<menu id="Settings" label="Configurações">
