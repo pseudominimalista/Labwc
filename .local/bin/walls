@@ -1,0 +1,4 @@
+#!/bin/sh
+walls=$(ls /usr/share/backgrounds/nordic-wallpapers-git/ | rofi -dmenu)
+cp /usr/share/backgrounds/nordic-wallpapers-git/$walls ~/.config/labwc
+wbg /usr/share/backgrounds/nordic-wallpapers-git/$walls &

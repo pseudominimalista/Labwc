@@ -1,0 +1,4 @@
+@theme "nord"
+configuration {
+	font: "JetBrainsMono 8";
+}

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openbox_menu>
+<menu id="root-menu" label="root-menu">
+	<menu id="Accessories" label="Acessórios">
+		<item label="Vim" icon="gvim">
+			<action name="Execute"><command>vim</command></action>
+		</item>
+	</menu> <!-- Accessories -->
+	<menu id="Settings" label="Configurações">
+		<item label="Labwc Config" icon="labwc-tweaks">
+			<action name="Execute"><command>labwc-tweaks</command></action>
+		</item>
+		<item label="Displays" icon="wdisplays">
+			<action name="Execute"><command>wdisplays</command></action>
+		</item>
+	</menu> <!-- Settings -->
+	<menu id="Internet" label="Internet">
+		<item label="LibreWolf" icon="librewolf">
+			<action name="Execute"><command>/usr/lib/librewolf/librewolf</command></action>
+		</item>
+	</menu> <!-- Internet -->
+	<menu id="Games" label="Jogos">
+		<item label="NXEngine" icon="nxengine">
+			<action name="Execute"><command>nxengine</command></action>
+		</item>
+	</menu> <!-- Games -->
+	<menu id="Multimedia" label="Multimídia">
+		<item label="mpv Media Player" icon="mpv">
+			<action name="Execute"><command>mpv --player-operation-mode=pseudo-gui --</command></action>
+		</item>
+	</menu> <!-- Multimedia -->
+	<menu id="System" label="Sistema">
+		<item label="Foot" icon="foot">
+			<action name="Execute"><command>foot</command></action>
+		</item>
+	</menu> <!-- System -->
+</menu> <!-- root-menu -->
+</openbox_menu>

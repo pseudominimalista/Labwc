@@ -1,0 +1,2 @@
+mako >/dev/null 2>&1 &
+wbg /usr/share/backgrounds/nordic-wallpapers-git/ign_astronaut.png >/dev/null 2>&1 &
