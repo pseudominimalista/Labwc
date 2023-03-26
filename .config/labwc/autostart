@@ -1,2 +1,2 @@
 mako >/dev/null 2>&1 &
-wbg ~/.config/wall >/dev/null 2>&1 &
+wbg ~/.config/labwc/wall >/dev/null 2>&1 &
