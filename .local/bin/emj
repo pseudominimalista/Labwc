@@ -1,0 +1,2 @@
+#!/bin/sh
+cat ~/.local/bin/emojis | rofi -dmenu | awk '{print $1}' | tr -d '\n' | wl-copy
