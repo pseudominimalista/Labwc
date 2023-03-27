@@ -1,7 +1,7 @@
 #!/bin/sh
 function upmenu {
         options="Upload a File\nRecent Uploads"
-        selected=$(echo -e $options | rofi -dmenu)
+        selected=$(echo -e $options | rofi -dmenu -l 2)
 		if [[ "$selected" == "Upload a File" ]]; then
 		
 		target="$1"
@@ -30,7 +30,7 @@ ls() {
               					echo "URL: $url"
 
               					printf "$url" | xclip -sel clip
-             					notify-send "File Uploaded\nURL: $url" 
+             					printf "File Uploaded\tURL: $url" -s 10 | xnotify
 
                					entry="$(date '+%d-%m-%y-%H:%M:%S')    $url    $(echo $target | awk -F'/' '{print $(NF)}')"
              					echo $entry >> $HOME/.0x0_list
@@ -43,7 +43,7 @@ ls() {
                     filename=$(echo $var | awk '{print $3}')
                     url=$(echo $var | awk '{print $2}')
                     printf "$url" | xclip -sel clip
-                   notify-send "$filename\nURL: $url"
+                    printf "$filename\tURL: $url" -s 10 | xnotify
 		elif [[ "$selected" == " Voltar" ]]; then
 					exit
 				fi

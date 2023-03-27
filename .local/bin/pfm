@@ -1,7 +1,5 @@
 #!/bin/sh
-case "$(printf "Bloquear\nFechar sessão\nReiniciar\nDesligar" | rofi -dmenu)" in
-	"Bloquear") slock ;;
-	"Fechar sessão") killall dwm ;;
+case "$(printf "Reiniciar\nDesligar" | rofi -dmenu -l 2)" in
 	"Reiniciar") reboot ;;
 	"Desligar") poweroff ;;
 	*) exit ;;
