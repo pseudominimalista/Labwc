@@ -30,7 +30,7 @@ ls() {
               					echo "URL: $url"
 
               					printf "$url" | xclip -sel clip
-             					printf "File Uploaded\tURL: $url" -s 10 | xnotify
+             					notify-send "File Uploaded\nURL: $url" 
 
                					entry="$(date '+%d-%m-%y-%H:%M:%S')    $url    $(echo $target | awk -F'/' '{print $(NF)}')"
              					echo $entry >> $HOME/.0x0_list
@@ -43,7 +43,7 @@ ls() {
                     filename=$(echo $var | awk '{print $3}')
                     url=$(echo $var | awk '{print $2}')
                     printf "$url" | xclip -sel clip
-                    printf "$filename\tURL: $url" -s 10 | xnotify
+                   notify-send "$filename\nURL: $url"
 		elif [[ "$selected" == " Voltar" ]]; then
 					exit
 				fi
