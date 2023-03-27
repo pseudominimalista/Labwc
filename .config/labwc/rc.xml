@@ -130,6 +130,31 @@
         <command>status</command>
       </action>
     </keybind>
+    <keybind key="W-u">
+      <action name="Execute">
+        <command>up</command>
+      </action>
+    </keybind>
+    <keybind key="W-y">
+      <action name="Execute">
+        <command>wifi</command>
+      </action>
+    </keybind>
+    <keybind key="W-t">
+      <action name="Execute">
+        <command>todo</command>
+      </action>
+    </keybind>
+    <keybind key="W-Delete">
+      <action name="Execute">
+        <command>pfm</command>
+      </action>
+    </keybind>
+    <keybind key="W-semicolon">
+      <action name="Execute">
+        <command>emj</command>
+      </action>
+    </keybind>
     <keybind key="W-i">
       <action name="Execute">
         <command>walls</command>
@@ -274,9 +299,4 @@
       </mousebind>
     </context>
   </mouse>
-  <libinput>
-    <device>
-      <naturalscroll>yes</naturalscroll>
-    </device>
-  </libinput>
 </labwc_config>
