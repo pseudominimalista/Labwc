@@ -13,6 +13,9 @@
 		<item label="Displays" icon="wdisplays">
 			<action name="Execute"><command>wdisplays</command></action>
 		</item>
+		<item label="Wallpapers" icon="wallpapers">
+			<action name="Execute"><command>walls</command></action>
+		</item>
 	</menu> <!-- Settings -->
 	<menu id="Internet" label="Internet">
 		<item label="LibreWolf" icon="librewolf">
@@ -34,5 +37,13 @@
 			<action name="Execute"><command>foot</command></action>
 		</item>
 	</menu> <!-- System -->
+	<menu id="Power" label="Energia">
+		<item label="Reiniciar" icon="reboot">
+			<action name="Execute"><command>reboot</command></action>
+		</item>
+		<item label="Desligar" icon="poweroff">
+			<action name="Execute"><command>poweroff</command></action>
+		</item>
+	</menu>
 </menu> <!-- root-menu -->
 </openbox_menu>
