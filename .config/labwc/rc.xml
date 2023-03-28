@@ -90,6 +90,11 @@
         <command>rofi -show run</command>
       </action>
     </keybind>
+    <keybind key="W-d">
+      <action name="Execute">
+        <command>rofi -show drun -show-icons</command>
+      </action>
+    </keybind>
     <keybind key="W-Return">
       <action name="Execute">
         <command>foot</command>

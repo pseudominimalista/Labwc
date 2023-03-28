@@ -6,17 +6,6 @@
 			<action name="Execute"><command>foot vim</command></action>
 		</item>
 	</menu> <!-- Accessories -->
-	<menu id="Settings" label="Configurações">
-		<item label="Labwc Config" icon="labwc-tweaks">
-			<action name="Execute"><command>labwc-tweaks</command></action>
-		</item>
-		<item label="Displays" icon="wdisplays">
-			<action name="Execute"><command>wdisplays</command></action>
-		</item>
-		<item label="Wallpapers" icon="wallpapers">
-			<action name="Execute"><command>walls</command></action>
-		</item>
-	</menu> <!-- Settings -->
 	<menu id="Internet" label="Internet">
 		<item label="LibreWolf" icon="librewolf">
 			<action name="Execute"><command>/usr/lib/librewolf/librewolf</command></action>
@@ -37,6 +26,20 @@
 			<action name="Execute"><command>foot</command></action>
 		</item>
 	</menu> <!-- System -->
+	<menu id="Settings" label="Configurações">
+		<item label="Labwc Config" icon="labwc-tweaks">
+			<action name="Execute"><command>labwc-tweaks</command></action>
+		</item>
+		<item label="Displays" icon="wdisplays">
+			<action name="Execute"><command>wdisplays</command></action>
+		</item>
+		<item label="Audio" icon="wdisplays">
+			<action name="Execute"><command>pavucontrol</command></action>
+		</item>
+		<item label="Wallpapers" icon="wallpapers">
+			<action name="Execute"><command>walls</command></action>
+		</item>
+	</menu> <!-- Settings -->
 	<menu id="Power" label="Energia">
 		<item label="Reiniciar" icon="reboot">
 			<action name="Execute"><command>reboot</command></action>
