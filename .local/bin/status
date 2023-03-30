@@ -1,0 +1,2 @@
+#!/bin/sh
+notify-send "$(date "+%d/%m/%y - %T")" "$(echo Bateria em: $(cat /sys/class/power_supply/BAT0/capacity)%)"
