@@ -1,56 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <openbox_menu>
 <menu id="root-menu" label="root-menu">
-<<<<<<< HEAD
-	<menu id="Accessories" label="Acessórios">
-		<item label="Vim" icon="gvim">
-			<action name="Execute"><command>foot vim</command></action>
-		</item>
-	</menu> <!-- Accessories -->
-	<menu id="Internet" label="Internet">
-		<item label="LibreWolf" icon="librewolf">
-			<action name="Execute"><command>/usr/lib/librewolf/librewolf</command></action>
-		</item>
-	</menu> <!-- Internet -->
-	<menu id="Games" label="Jogos">
-		<item label="NXEngine" icon="nxengine">
-			<action name="Execute"><command>nxengine</command></action>
-		</item>
-	</menu> <!-- Games -->
-	<menu id="Multimedia" label="Multimídia">
-		<item label="mpv Media Player" icon="mpv">
-			<action name="Execute"><command>mpv --player-operation-mode=pseudo-gui --</command></action>
-		</item>
-	</menu> <!-- Multimedia -->
-	<menu id="System" label="Sistema">
-		<item label="Foot" icon="foot">
-			<action name="Execute"><command>foot</command></action>
-		</item>
-	</menu> <!-- System -->
-	<menu id="Settings" label="Configurações">
-		<item label="Labwc Config" icon="labwc-tweaks">
-			<action name="Execute"><command>labwc-tweaks</command></action>
-		</item>
-		<item label="Displays" icon="wdisplays">
-			<action name="Execute"><command>wdisplays</command></action>
-		</item>
-		<item label="Audio" icon="wdisplays">
-			<action name="Execute"><command>pavucontrol</command></action>
-		</item>
-		<item label="Wallpapers" icon="wallpapers">
-			<action name="Execute"><command>walls</command></action>
-		</item>
-	</menu> <!-- Settings -->
-	<menu id="Power" label="Energia">
-		<item label="Reiniciar" icon="reboot">
-			<action name="Execute"><command>reboot</command></action>
-		</item>
-		<item label="Desligar" icon="poweroff">
-			<action name="Execute"><command>poweroff</command></action>
-		</item>
-	</menu>
-</menu> <!-- root-menu -->
-=======
 		<item label="Terminal">
 			<action name="Execute"><command>foot</command></action>
 		</item>
@@ -70,5 +20,4 @@
 		</item>
 	</menu> 
 </menu> 
->>>>>>> bdbeb62 (FINALMENTE UM UPDATE)
 </openbox_menu>
