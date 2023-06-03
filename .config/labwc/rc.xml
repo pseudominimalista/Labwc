@@ -105,11 +105,6 @@
         <command>thunar</command>
       </action>
     </keybind>
-    <keybind key="W-k">
-      <action name="Execute">
-        <command>keepassxc</command>
-      </action>
-    </keybind>
     <keybind key="W-a">
       <action name="Execute">
         <command>pavucontrol</command>
