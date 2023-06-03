@@ -100,11 +100,6 @@
         <command>foot</command>
       </action>
     </keybind>
-    <keybind key="W-w">
-      <action name="Execute">
-        <command>librewolf</command>
-      </action>
-    </keybind>
     <keybind key="W-e">
       <action name="Execute">
         <command>thunar</command>
@@ -122,7 +117,7 @@
     </keybind>
     <keybind key="W-w">
       <action name="Execute">
-        <command>librewolf</command>
+        <command>google-chrome-stable --ozone-platform=wayland</command>
       </action>
     </keybind>
     <keybind key="Print">
