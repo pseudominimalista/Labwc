@@ -6,3 +6,5 @@ xdg-user-dirs-update --force
 cp -r .config ~/
 cp -r .local ~/
 cp .bash* ~/
+
+chmod +x ~/.local/bin/*
