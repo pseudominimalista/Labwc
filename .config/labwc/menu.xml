@@ -1,23 +1,69 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <openbox_menu>
 <menu id="root-menu" label="root-menu">
-		<item label="Terminal">
-			<action name="Execute"><command>foot</command></action>
-		</item>
-		<item label="Google Chrome">
-			<action name="Execute"><command>google-chrome-stable --ozone-platform=wayland</command></action>
-		</item>
-		<item label="MPV" icon="mpv">
-			<action name="Execute"><command>mpv --player-operation-mode=pseudo-gui --</command></action>
-		</item>
-		<separator />
-	<menu id="Settings" label="Configurações">
-		<item label="Ajustes" icon="labwc-tweaks">
-			<action name="Execute"><command>labwc-tweaks</command></action>
-		</item>
-		<item label="Áudio">
-			<action name="Execute"><command>pavucontrol</command></action>
-		</item>
-	</menu> 
-</menu> 
+<item label="Terminal">
+<action name="Execute">
+<command>foot</command>
+</action>
+</item>
+<item label="thunar">
+<action name="Execute">
+<command>thunar</command>
+</action>
+</item>
+<item label="LibreOffice">
+<action name="Execute">
+<command>libreoffice</command>
+</action>
+</item>
+<item label="VSCodium">
+<action name="Execute">
+<command>codium</command>
+</action>
+</item>
+<item label="Chrome">
+<action name="Execute">
+<command>google-chrome-stable --ozone-platform=wayland</command>
+</action>
+</item>
+<item label="MPV" icon="mpv">
+<action name="Execute">
+<command>mpv --player-operation-mode=pseudo-gui --</command>
+</action>
+</item>
+<separator/>
+<menu id="Settings" label="Configurações">
+<item label="Ajustes" icon="labwc-tweaks">
+<action name="Execute">
+<command>labwc-tweaks</command>
+</action>
+</item>
+<item label="Áudio">
+<action name="Execute">
+<command>pavucontrol</command>
+</action>
+</item>
+<item label="Bluetooth">
+<action name="Execute">
+<command>blueman-manager</command>
+</action>
+</item>
+</menu>
+<menu id="Power" label="Energia">
+<item label="Suspender" icon="labwc-tweaks">
+<action name="Execute">
+<command>systemctl suspend</command>
+</action>
+</item>
+<item label="Reiniciar">
+<action name="Execute">
+<command>systemctl reboot</command>
+</action>
+</item>
+<item label="Desligar">
+<action name="Execute">
+<command>systemctl poweroff</command>
+</action>
+</item>
+</menu>
+</menu>
 </openbox_menu>
