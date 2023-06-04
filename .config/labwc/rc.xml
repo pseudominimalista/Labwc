@@ -1,297 +1,304 @@
-<?xml version="1.0"?>
 <labwc_config>
-  <core>
-    <gap>
-     10
-    </gap>
-  </core>
-  <desktops>
-    <names>
-      <name>1</name>
-      <name>2</name>
-      <name>3</name>
-      <name>4</name>
-    </names>
-  </desktops>
-  <theme>
-    <cornerRadius>3</cornerRadius>
-    <font>
-      <name>JetBrainsMono</name>
-      <size>8</size>
-    </font>
-    <name>Nord</name>
-  </theme>
-  <focus>
-    <followMouse>yes</followMouse>
-    <raiseOnFocus>no</raiseOnFocus>
-  </focus>
-  <regions>
-    <region name="top-left" x="0%" y="0%" height="50%" width="50%"/>
-    <region name="top" x="0%" y="0%" height="50%" width="100%"/>
-    <region name="top-right" x="50%" y="0%" height="50%" width="50%"/>
-    <region name="left" x="0%" y="0%" height="100%" width="50%"/>
-    <region name="center" x="10%" y="10%" height="80%" width="80%"/>
-    <region name="right" x="50%" y="0%" height="100%" width="50%"/>
-    <region name="bottom-left" x="0%" y="50%" height="50%" width="50%"/>
-    <region name="bottom" x="0%" y="50%" height="50%" width="100%"/>
-    <region name="bottom-right" x="50%" y="50%" height="50%" width="50%"/>
-  </regions>
-  <keyboard>
-    <default/>
-    <keybind key="W-KP_7">
-      <action name="SnapToRegion" region="top-left"/>
-    </keybind>
-    <keybind key="W-KP_8">
-      <action name="SnapToRegion" region="top"/>
-    </keybind>
-    <keybind key="W-KP_9">
-      <action name="SnapToRegion" region="top-right"/>
-    </keybind>
-    <keybind key="W-KP_4">
-      <action name="SnapToRegion" region="left"/>
-    </keybind>
-    <keybind key="W-KP_5">
-      <action name="SnapToRegion" region="center"/>
-    </keybind>
-    <keybind key="W-KP_6">
-      <action name="SnapToRegion" region="right"/>
-    </keybind>
-    <keybind key="W-KP_1">
-      <action name="SnapToRegion" region="bottom-left"/>
-    </keybind>
-    <keybind key="W-KP_2">
-      <action name="SnapToRegion" region="bottom"/>
-    </keybind>
-    <keybind key="W-KP_3">
-      <action name="SnapToRegion" region="bottom-right"/>
-    </keybind>
-    <keybind key="W-Left">
-      <action name="GoToDesktop">
-        <to>left</to>
-      </action>
-    </keybind>
-    <keybind key="W-Right">
-      <action name="GoToDesktop" to="right"/>
-    </keybind>
-    <keybind key="A-Left">
-      <action name="SendToDesktop" to="left"/>
-    </keybind>
-    <keybind key="A-Right">
-      <action name="SendToDesktop" to="right"/>
-    </keybind>
-    <keybind key="W-Up">
-      <action name="None"/>
-    </keybind>
-    <keybind key="W-Down">
-      <action name="None"/>
-    </keybind>
-    <keybind key="W-p">
-      <action name="Execute">
-        <command>rofi -show run</command>
-      </action>
-    </keybind>
-    <keybind key="W-d">
-      <action name="Execute">
-        <command>rofi -show drun -show-icons</command>
-      </action>
-    </keybind>
-    <keybind key="W-Return">
-      <action name="Execute">
-        <command>foot</command>
-      </action>
-    </keybind>
-    <keybind key="W-e">
-      <action name="Execute">
-        <command>thunar</command>
-      </action>
-    </keybind>
-    <keybind key="W-a">
-      <action name="Execute">
-        <command>pavucontrol</command>
-      </action>
-    </keybind>
-    <keybind key="W-w">
-      <action name="Execute">
-        <command>google-chrome-stable --ozone-platform=wayland</command>
-      </action>
-    </keybind>
-    <keybind key="Print">
-      <action name="Execute">
-        <command>grim</command>
-      </action>
-    </keybind>
-    <keybind key="W-s">
-      <action name="Execute">
-        <command>status</command>
-      </action>
-    </keybind>
-    <keybind key="W-u">
-      <action name="Execute">
-        <command>up</command>
-      </action>
-    </keybind>
-    <keybind key="W-y">
-      <action name="Execute">
-        <command>wifi</command>
-      </action>
-    </keybind>
-    <keybind key="W-t">
-      <action name="Execute">
-        <command>todo</command>
-      </action>
-    </keybind>
-    <keybind key="W-Delete">
-      <action name="Execute">
-        <command>pfm</command>
-      </action>
-    </keybind>
-    <keybind key="W-semicolon">
-      <action name="Execute">
-        <command>emj</command>
-      </action>
-    </keybind>
-    <keybind key="W-i">
-      <action name="Execute">
-        <command>walls</command>
-      </action>
-    </keybind>
-    <keybind key="W-m">
-      <action name="ShowMenu" menu="root-menu"/>
-    </keybind>
-    <keybind key="W-q">
-      <action name="Close"/>
-    </keybind>
-    <keybind key="W-f">
-      <action name="ToggleFullscreen"/>
-    </keybind>
-    <keybind key="W-r">
-      <action name="Reconfigure"/>
-    </keybind>
-  </keyboard>
-  <mouse>
-    <context name="Frame">
-      <mousebind button="W-Left" action="Press">
-        <action name="Focus"/>
-        <action name="Raise"/>
-      </mousebind>
-      <mousebind button="W-Left" action="Drag">
-        <action name="Move"/>
-      </mousebind>
-      <mousebind button="W-Right" action="Drag">
-        <action name="Resize"/>
-      </mousebind>
-    </context>
-    <context name="Top">
-      <mousebind button="Left" action="Drag">
-        <action name="Resize"/>
-      </mousebind>
-    </context>
-    <context name="Left">
-      <mousebind button="Left" action="Drag">
-        <action name="Resize"/>
-      </mousebind>
-    </context>
-    <context name="Right">
-      <mousebind button="Left" action="Drag">
-        <action name="Resize"/>
-      </mousebind>
-    </context>
-    <context name="Bottom">
-      <mousebind button="Left" action="Drag">
-        <action name="Resize"/>
-      </mousebind>
-    </context>
-    <context name="TRCorner">
-      <mousebind button="Left" action="Drag">
-        <action name="Resize"/>
-      </mousebind>
-    </context>
-    <context name="BRCorner">
-      <mousebind button="Left" action="Drag">
-        <action name="Resize"/>
-      </mousebind>
-    </context>
-    <context name="TLCorner">
-      <mousebind button="Left" action="Drag">
-        <action name="Resize"/>
-      </mousebind>
-    </context>
-    <context name="BLCorner">
-      <mousebind button="Left" action="Drag">
-        <action name="Resize"/>
-      </mousebind>
-    </context>
-    <context name="TitleBar">
-      <mousebind button="Left" action="Press">
-        <action name="Focus"/>
-        <action name="Raise"/>
-      </mousebind>
-      <mousebind button="Right" action="Click">
-        <action name="Focus"/>
-        <action name="Raise"/>
-        <action name="ShowMenu" menu="client-menu"/>
-      </mousebind>
-    </context>
-    <context name="Title">
-      <mousebind button="Left" action="Drag">
-        <action name="Move"/>
-      </mousebind>
-      <mousebind button="Left" action="DoubleClick">
-        <action name="ToggleMaximize"/>
-      </mousebind>
-    </context>
-    <context name="Maximize">
-      <mousebind button="Left" action="Click">
-        <action name="Focus"/>
-        <action name="Raise"/>
-        <action name="ToggleMaximize"/>
-      </mousebind>
-    </context>
-    <context name="WindowMenu">
-      <mousebind button="Left" action="Click">
-        <action name="ShowMenu" menu="client-menu"/>
-      </mousebind>
-    </context>
-    <context name="Iconify">
-      <mousebind button="left" action="Click">
-        <action name="Iconify"/>
-      </mousebind>
-    </context>
-    <context name="Close">
-      <mousebind button="Left" action="Click">
-        <action name="Close"/>
-      </mousebind>
-    </context>
-    <context name="Client">
-      <mousebind button="Left" action="Press">
-        <action name="Focus"/>
-        <action name="Raise"/>
-      </mousebind>
-      <mousebind button="Middle" action="Press">
-        <action name="Focus"/>
-        <action name="Raise"/>
-      </mousebind>
-      <mousebind button="Right" action="Press">
-        <action name="Focus"/>
-        <action name="Raise"/>
-      </mousebind>
-    </context>
-    <context name="Root">
-      <mousebind button="Left" action="Press">
-        <action name="ShowMenu" menu="root-menu"/>
-      </mousebind>
-      <mousebind button="Right" action="Press">
-        <action name="ShowMenu" menu="root-menu"/>
-      </mousebind>
-      <mousebind button="Middle" action="Press">
-        <action name="ShowMenu" menu="root-menu"/>
-      </mousebind>
-      <mousebind direction="Up" action="Scroll">
-        <action name="GoToDesktop" to="left"/>
-      </mousebind>
-      <mousebind direction="Down" action="Scroll">
-        <action name="GoToDesktop" to="right"/>
-      </mousebind>
-    </context>
-  </mouse>
+<core>
+<gap> 10 </gap>
+</core>
+<desktops>
+<names>
+<name>1</name>
+<name>2</name>
+<name>3</name>
+<name>4</name>
+</names>
+</desktops>
+<theme>
+<cornerRadius>3</cornerRadius>
+<font>
+<name>JetBrainsMono</name>
+<size>8</size>
+</font>
+<name>Nord</name>
+</theme>
+<focus>
+<followMouse>yes</followMouse>
+<raiseOnFocus>no</raiseOnFocus>
+</focus>
+<regions>
+<region name="top-left" x="0%" y="0%" height="50%" width="50%"/>
+<region name="top" x="0%" y="0%" height="50%" width="100%"/>
+<region name="top-right" x="50%" y="0%" height="50%" width="50%"/>
+<region name="left" x="0%" y="0%" height="100%" width="50%"/>
+<region name="center" x="10%" y="10%" height="80%" width="80%"/>
+<region name="right" x="50%" y="0%" height="100%" width="50%"/>
+<region name="bottom-left" x="0%" y="50%" height="50%" width="50%"/>
+<region name="bottom" x="0%" y="50%" height="50%" width="100%"/>
+<region name="bottom-right" x="50%" y="50%" height="50%" width="50%"/>
+</regions>
+<keyboard>
+<default/>
+<keybind key="W-KP_7">
+<action name="SnapToRegion" region="top-left"/>
+</keybind>
+<keybind key="W-KP_8">
+<action name="SnapToRegion" region="top"/>
+</keybind>
+<keybind key="W-KP_9">
+<action name="SnapToRegion" region="top-right"/>
+</keybind>
+<keybind key="W-KP_4">
+<action name="SnapToRegion" region="left"/>
+</keybind>
+<keybind key="W-KP_5">
+<action name="SnapToRegion" region="center"/>
+</keybind>
+<keybind key="W-KP_6">
+<action name="SnapToRegion" region="right"/>
+</keybind>
+<keybind key="W-KP_1">
+<action name="SnapToRegion" region="bottom-left"/>
+</keybind>
+<keybind key="W-KP_2">
+<action name="SnapToRegion" region="bottom"/>
+</keybind>
+<keybind key="W-KP_3">
+<action name="SnapToRegion" region="bottom-right"/>
+</keybind>
+<keybind key="W-Left">
+<action name="GoToDesktop">
+<to>left</to>
+</action>
+</keybind>
+<keybind key="W-Right">
+<action name="GoToDesktop" to="right"/>
+</keybind>
+<keybind key="A-Left">
+<action name="SendToDesktop" to="left"/>
+</keybind>
+<keybind key="A-Right">
+<action name="SendToDesktop" to="right"/>
+</keybind>
+<keybind key="W-Up">
+<action name="None"/>
+</keybind>
+<keybind key="W-Down">
+<action name="None"/>
+</keybind>
+<keybind key="W-p">
+<action name="Execute">
+<command>rofi -show run</command>
+</action>
+</keybind>
+<keybind key="W-d">
+<action name="Execute">
+<command>rofi -show drun -show-icons</command>
+</action>
+</keybind>
+<keybind key="W-Return">
+<action name="Execute">
+<command>foot</command>
+</action>
+</keybind>
+<keybind key="W-e">
+<action name="Execute">
+<command>thunar</command>
+</action>
+</keybind>
+<keybind key="W-a">
+<action name="Execute">
+<command>pavucontrol</command>
+</action>
+</keybind>
+<keybind key="W-c">
+<action name="Execute">
+<command>codium</command>
+</action>
+</keybind>
+<keybind key="W-b">
+<action name="Execute">
+<command>blueman-manager</command>
+</action>
+</keybind>
+<keybind key="W-w">
+<action name="Execute">
+<command>google-chrome-stable --ozone-platform=wayland</command>
+</action>
+</keybind>
+<keybind key="Print">
+<action name="Execute">
+<command>grim</command>
+</action>
+</keybind>
+<keybind key="W-Print">
+<action name="Execute">
+<command>foot wf-recorder</command>
+</action>
+</keybind>
+<keybind key="W-s">
+<action name="Execute">
+<command>status</command>
+</action>
+</keybind>
+<keybind key="W-y">
+<action name="Execute">
+<command>wifi</command>
+</action>
+</keybind>
+<keybind key="W-Delete">
+<action name="Execute">
+<command>pfm</command>
+</action>
+</keybind>
+<keybind key="W-semicolon">
+<action name="Execute">
+<command>emj</command>
+</action>
+</keybind>
+<keybind key="W-i">
+<action name="Execute">
+<command>walls</command>
+</action>
+</keybind>
+<keybind key="W-m">
+<action name="ShowMenu" menu="root-menu"/>
+</keybind>
+<keybind key="W-q">
+<action name="Close"/>
+</keybind>
+<keybind key="W-f">
+<action name="ToggleFullscreen"/>
+</keybind>
+<keybind key="W-r">
+<action name="Reconfigure"/>
+</keybind>
+</keyboard>
+<mouse>
+<context name="Frame">
+<mousebind button="W-Left" action="Press">
+<action name="Focus"/>
+<action name="Raise"/>
+</mousebind>
+<mousebind button="W-Left" action="Drag">
+<action name="Move"/>
+</mousebind>
+<mousebind button="W-Right" action="Drag">
+<action name="Resize"/>
+</mousebind>
+</context>
+<context name="Top">
+<mousebind button="Left" action="Drag">
+<action name="Resize"/>
+</mousebind>
+</context>
+<context name="Left">
+<mousebind button="Left" action="Drag">
+<action name="Resize"/>
+</mousebind>
+</context>
+<context name="Right">
+<mousebind button="Left" action="Drag">
+<action name="Resize"/>
+</mousebind>
+</context>
+<context name="Bottom">
+<mousebind button="Left" action="Drag">
+<action name="Resize"/>
+</mousebind>
+</context>
+<context name="TRCorner">
+<mousebind button="Left" action="Drag">
+<action name="Resize"/>
+</mousebind>
+</context>
+<context name="BRCorner">
+<mousebind button="Left" action="Drag">
+<action name="Resize"/>
+</mousebind>
+</context>
+<context name="TLCorner">
+<mousebind button="Left" action="Drag">
+<action name="Resize"/>
+</mousebind>
+</context>
+<context name="BLCorner">
+<mousebind button="Left" action="Drag">
+<action name="Resize"/>
+</mousebind>
+</context>
+<context name="TitleBar">
+<mousebind button="Left" action="Press">
+<action name="Focus"/>
+<action name="Raise"/>
+</mousebind>
+<mousebind button="Right" action="Click">
+<action name="Focus"/>
+<action name="Raise"/>
+<action name="ShowMenu" menu="client-menu"/>
+</mousebind>
+</context>
+<context name="Title">
+<mousebind button="Left" action="Drag">
+<action name="Move"/>
+</mousebind>
+<mousebind button="Left" action="DoubleClick">
+<action name="ToggleMaximize"/>
+</mousebind>
+</context>
+<context name="Maximize">
+<mousebind button="Left" action="Click">
+<action name="Focus"/>
+<action name="Raise"/>
+<action name="ToggleMaximize"/>
+</mousebind>
+</context>
+<context name="WindowMenu">
+<mousebind button="Left" action="Click">
+<action name="ShowMenu" menu="client-menu"/>
+</mousebind>
+</context>
+<context name="Iconify">
+<mousebind button="left" action="Click">
+<action name="Iconify"/>
+</mousebind>
+</context>
+<context name="Close">
+<mousebind button="Left" action="Click">
+<action name="Close"/>
+</mousebind>
+</context>
+<context name="Client">
+<mousebind button="Left" action="Press">
+<action name="Focus"/>
+<action name="Raise"/>
+</mousebind>
+<mousebind button="Middle" action="Press">
+<action name="Focus"/>
+<action name="Raise"/>
+</mousebind>
+<mousebind button="Right" action="Press">
+<action name="Focus"/>
+<action name="Raise"/>
+</mousebind>
+</context>
+<context name="Root">
+<mousebind button="Left" action="Press">
+<action name="ShowMenu" menu="root-menu"/>
+</mousebind>
+<mousebind button="Right" action="Press">
+<action name="ShowMenu" menu="root-menu"/>
+</mousebind>
+<mousebind button="Middle" action="Press">
+<action name="ShowMenu" menu="root-menu"/>
+</mousebind>
+<mousebind direction="Up" action="Scroll">
+<action name="GoToDesktop" to="left"/>
+</mousebind>
+<mousebind direction="Down" action="Scroll">
+<action name="GoToDesktop" to="right"/>
+</mousebind>
+</context>
+</mouse>
+<libinput>
+<device>
+<naturalscroll/>
+</device>
+</libinput>
 </labwc_config>
