@@ -1,6 +1,2 @@
 #!/bin/sh
-<<<<<<< HEAD
-notify-send "$(date "+%d/%m/%y - %T")" "$(echo Bateria em: $(cat /sys/class/power_supply/BAT0/capacity)%)"
-=======
 notify-send "$(date "+%T - %d/%m/%Y")" "$(echo "Bateria em: $(cat /sys/class/power_supply/BAT0/capacity)%")"
->>>>>>> bdbeb62 (FINALMENTE UM UPDATE)
