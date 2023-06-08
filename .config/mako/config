@@ -3,3 +3,4 @@ default-timeout=5000
 background-color=#2e3440
 text-color=#d8dee9
 border-color=#81a1c1
+anchor=bottom-right
