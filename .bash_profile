@@ -1,4 +1,4 @@
-export PATH=/bin:/usr/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/sbin:/home/john/.local/bin:/home/john/bin
+export PATH=$HOME/.local/bin:$PATH
 
 if [ -f ~/.bashrc ]; then
 	. ~/.bashrc
