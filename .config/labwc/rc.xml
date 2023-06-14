@@ -14,7 +14,7 @@
   <theme>
     <cornerRadius>3</cornerRadius>
     <font>
-      <name>JetBrainsMono</name>
+      <name>NotoSansMono</name>
       <size>8</size>
     </font>
     <name>Nord</name>
@@ -142,6 +142,12 @@
     <keybind key="W-d">
       <action name="Execute">
         <command>rofi -show drun -show-icons</command>
+      </action>
+    </keybind>
+    <keybind key="W-l">
+      <action name="Execute">
+        <command>swaylock -f -c \#2e3440 --inside-color \#2e3440 --line-color \#2e3440 --line-wrong-color \#2e3440 --line-clear-color \#2e3440 --line-caps-lock-color \#2e3440 --line-ver-color \#2e3440 --text-color \#2e3440 --text-caps-lock-color \#fab387 --text-clear-color \#d8dee9 --text-wrong-color \#d8dee9 --text-ver-color \#d8dee9 --ring-color \#2e3440 --ring-clear-color \#2e3440 --inside-clear-color \#2e3440 --bs-hl-color \#BF616A --key-hl-color \#A3BE8C --ring-ver-color \#A3BE8C --inside-ver-color \#2e3440 --ring-wrong-color \#BF616A --inside-wrong-color \#2e3440
+</command>
       </action>
     </keybind>
     <keybind key="W-Return">
