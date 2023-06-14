@@ -14,7 +14,7 @@
   <theme>
     <cornerRadius>3</cornerRadius>
     <font>
-      <name>NotoSansMono</name>
+      <name>JetBrainsMono</name>
       <size>8</size>
     </font>
     <name>Nord</name>
