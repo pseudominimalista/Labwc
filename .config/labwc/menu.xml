@@ -15,9 +15,9 @@
 <command>libreoffice</command>
 </action>
 </item>
-<item label="VSCodium">
+<item label="Lite-XL">
 <action name="Execute">
-<command>codium</command>
+<command>lite-xl</command>
 </action>
 </item>
 <item label="Chrome">
