@@ -1,0 +1,1 @@
+return {recents={[1]="/home/john/.config/sway",[2]="/home/john/Área de trabalho/Git/pseudominimalista.github.io"}, window={[1]=1092,[2]=614,[3]=137,[4]=87,["n"]=4}, window_mode="normal", previous_find={}, previous_replace={}}
