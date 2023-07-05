@@ -177,7 +177,7 @@
     </keybind>
     <keybind key="W-w">
       <action name="Execute">
-        <command>google-chrome-stable --ozone-platform=wayland</command>
+        <command>librewolf</command>
       </action>
     </keybind>
     <keybind key="Print">
