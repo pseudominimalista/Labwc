@@ -20,9 +20,9 @@
 <command>lite-xl</command>
 </action>
 </item>
-<item label="Chrome">
+<item label="Librewolf">
 <action name="Execute">
-<command>google-chrome-stable --ozone-platform=wayland</command>
+<command>librewolf</command>
 </action>
 </item>
 <item label="MPV" icon="mpv">
