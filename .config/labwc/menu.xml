@@ -1,69 +1,69 @@
 <openbox_menu>
-<menu id="root-menu" label="root-menu">
-<item label="Terminal">
-<action name="Execute">
-<command>foot</command>
-</action>
-</item>
-<item label="Thunar">
-<action name="Execute">
-<command>thunar</command>
-</action>
-</item>
-<item label="LibreOffice">
-<action name="Execute">
-<command>libreoffice</command>
-</action>
-</item>
-<item label="Lite-XL">
-<action name="Execute">
-<command>lite-xl</command>
-</action>
-</item>
-<item label="Librewolf">
-<action name="Execute">
-<command>librewolf</command>
-</action>
-</item>
-<item label="MPV" icon="mpv">
-<action name="Execute">
-<command>mpv --player-operation-mode=pseudo-gui --</command>
-</action>
-</item>
-<separator/>
-<menu id="Settings" label="Configurações">
-<item label="Ajustes" icon="labwc-tweaks">
-<action name="Execute">
-<command>labwc-tweaks</command>
-</action>
-</item>
-<item label="Áudio">
-<action name="Execute">
-<command>pavucontrol</command>
-</action>
-</item>
-<item label="Bluetooth">
-<action name="Execute">
-<command>blueman-manager</command>
-</action>
-</item>
-</menu>
-<menu id="Power" label="Energia">
-<item label="Suspender" icon="labwc-tweaks">
-<action name="Execute">
-<command>systemctl suspend</command>
-</action>
-</item>
-<item label="Reiniciar">
-<action name="Execute">
-<command>systemctl reboot</command>
-</action>
-</item>
-<item label="Desligar">
-<action name="Execute">
-<command>systemctl poweroff</command>
-</action>
-</item>
-</menu>
-</menu>
+  <menu id="root-menu" label="root-menu">
+    <item label="Terminal">
+      <action name="Execute">
+        <command>foot</command>
+      </action>
+    </item>
+    <item label="Librewolf">
+      <action name="Execute">
+        <command>librewolf</command>
+      </action>
+    </item>
+    <item label="Thunar">
+      <action name="Execute">
+        <command>thunar</command>
+      </action>
+    </item>
+    <item label="LibreOffice">
+      <action name="Execute">
+        <command>libreoffice</command>
+      </action>
+    </item>
+    <item label="Lite-XL">
+      <action name="Execute">
+        <command>lite-xl</command>
+      </action>
+    </item>
+    <item label="MPV" icon="mpv">
+      <action name="Execute">
+        <command>mpv --player-operation-mode=pseudo-gui --</command>
+      </action>
+    </item>
+    <separator/>
+    <menu id="Settings" label="Configurações">
+      <item label="Ajustes" icon="labwc-tweaks">
+        <action name="Execute">
+          <command>labwc-tweaks</command>
+        </action>
+      </item>
+      <item label="Áudio">
+        <action name="Execute">
+          <command>pavucontrol</command>
+        </action>
+      </item>
+      <item label="Bluetooth">
+        <action name="Execute">
+          <command>blueman-manager</command>
+        </action>
+      </item>
+    </menu>
+    <menu id="Power" label="Energia">
+      <item label="Suspender" icon="labwc-tweaks">
+        <action name="Execute">
+          <command>systemctl suspend</command>
+        </action>
+      </item>
+      <item label="Reiniciar">
+        <action name="Execute">
+          <command>systemctl reboot</command>
+        </action>
+      </item>
+      <item label="Desligar">
+        <action name="Execute">
+          <command>systemctl poweroff</command>
+        </action>
+      </item>
+    </menu>
+  </menu>
 </openbox_menu>
