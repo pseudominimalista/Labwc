@@ -20,7 +20,7 @@
     <name>Nord</name>
   </theme>
   <focus>
-    <followMouse>yes</followMouse>
+    <followMouse>no</followMouse>
     <raiseOnFocus>no</raiseOnFocus>
   </focus>
   <regions>
