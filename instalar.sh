@@ -3,7 +3,7 @@
 wbg labwc foot wf-recorder wl-clipboard brightnessctl pavucontrol thunar gvfs gvfs-mtp gvfs-smb \
 grimshot imv mako mpv ttf-jetbrains-mono acpi xdg-desktop-portal-wlr rofi \
 xorg-xwayland yt-dlp blueman libreoffice mupdf file-roller p7zip wine nwg-look-bin \
-playerctl swaylock lite-xl-bin alsa-utils xdg-utils xdg-user-dirs
+playerctl swaylock lite-xl-bin alsa-utils xdg-utils xdg-user-dirs tumbler
 
 xdg-user-dirs-update --force
 cp -r .config ~/
