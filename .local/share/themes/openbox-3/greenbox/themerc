@@ -24,10 +24,10 @@ menu.title.bg.color: #8FAA97
 ###############################
 
 ###### On Screen Display ######
-osd.bg.color: #8FAA97
-osd.hilight.bg: .color: #142B31
-osd.label.text.color: #142B31
-osd.unhilight.bg: .color: #142B31
+osd.bg.color: #142b31
+osd.hilight.bg: .color: #8faa97
+osd.label.text.color: #8faa97
+osd.unhilight.bg: .color: #8faa97
 ###############################
 
 ## Configurações das janelas ##
