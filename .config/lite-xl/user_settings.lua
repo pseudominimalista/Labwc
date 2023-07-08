@@ -20,6 +20,6 @@ return {
       }
     },
     ["indent_size"] = 2,
-    ["theme"] = "nord"
+    ["theme"] = "onedark"
   }
 }
