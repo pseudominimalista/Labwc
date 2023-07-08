@@ -1,6 +1,6 @@
 
 * {
-    font:   "JetBrains Mono Regular 12";
+    font:   "JetBrains Mono Regular 10";
 
     bg0:     #142B31;
     bg1:     #253C42;
