@@ -205,11 +205,6 @@
         <command>emj</command>
       </action>
     </keybind>
-    <keybind key="W-i">
-      <action name="Execute">
-        <command>walls</command>
-      </action>
-    </keybind>
     <keybind key="W-m">
       <action name="ShowMenu" menu="root-menu"/>
     </keybind>
