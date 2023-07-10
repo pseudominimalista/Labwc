@@ -201,11 +201,6 @@
         <command>wifi</command>
       </action>
     </keybind>
-    <keybind key="W-Delete">
-      <action name="Execute">
-        <command>pfm</command>
-      </action>
-    </keybind>
     <keybind key="W-semicolon">
       <action name="Execute">
         <command>emj</command>
