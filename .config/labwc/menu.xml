@@ -15,11 +15,6 @@
         <command>thunar</command>
       </action>
     </item>
-    <item label="LibreOffice">
-      <action name="Execute">
-        <command>libreoffice</command>
-      </action>
-    </item>
     <item label="Lite-XL">
       <action name="Execute">
         <command>lite-xl</command>
